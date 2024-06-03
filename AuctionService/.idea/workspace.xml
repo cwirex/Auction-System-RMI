@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e9c3d25-6527-4efd-ba44-b6e00a4b017a" name="Changes" comment="Add library locally" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gop3OWSiDux3X1MP1N8dCMV17y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.RMIServer.executor": "Run",
+    "JUnit.All in ASServer.executor": "Run",
+    "JUnit.ClientTest.executor": "Run",
+    "JUnit.ClientTest.testGetAdmin.executor": "Run",
+    "JUnit.ClientTest.testMultipleBidders.executor": "Run",
+    "JUnit.ClientTest.testUserClaimsItem.executor": "Run",
+    "JUnit.ClientTest.testUserPlaceBid.executor": "Run",
+    "JUnit.ServiceTest.executor": "Run",
+    "JUnit.ServiceTest.testCreateAuction.executor": "Run",
+    "JUnit.ServiceTest.testLogin.executor": "Run",
+    "JUnit.client in AuctionService.executor": "Run",
+    "JUnit.java in AuctionService.executor": "Run",
+    "JUnit.org.client in ASServer.executor": "Run",
+    "Maven.AuctionService [compile].executor": "Run",
+    "Maven.AuctionService [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mateusz/IdeaProjects/AS/AuctionService/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/mateusz/IdeaProjects/ASServer/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.java in AuctionService">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.client.Client" />
+      <module name="AuctionService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ASServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuctionService" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client in AuctionService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuctionService" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/org/client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in AuctionService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuctionService" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.client in ASServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AuctionService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.client" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in AuctionService" />
+        <item itemvalue="JUnit.client in AuctionService" />
+        <item itemvalue="JUnit.org.client in ASServer" />
+        <item itemvalue="JUnit.All in ASServer" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e9c3d25-6527-4efd-ba44-b6e00a4b017a" name="Changes" comment="" />
+      <created>1716373585310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716373585310</updated>
+      <workItem from="1716373586365" duration="258000" />
+      <workItem from="1716374068505" duration="980000" />
+      <workItem from="1716378139000" duration="3872000" />
+      <workItem from="1716388219541" duration="85000" />
+      <workItem from="1716388318340" duration="85000" />
+      <workItem from="1716388451880" duration="4096000" />
+      <workItem from="1716399063846" duration="1904000" />
+      <workItem from="1716401005024" duration="2450000" />
+      <workItem from="1716458999613" duration="1467000" />
+      <workItem from="1716461402085" duration="823000" />
+      <workItem from="1716462376305" duration="16000" />
+      <workItem from="1716462406827" duration="253000" />
+      <workItem from="1716462678001" duration="371000" />
+      <workItem from="1716463139796" duration="183000" />
+      <workItem from="1716463343764" duration="784000" />
+      <workItem from="1716464249072" duration="170000" />
+      <workItem from="1716464465269" duration="713000" />
+      <workItem from="1716466393830" duration="752000" />
+      <workItem from="1716467171769" duration="87000" />
+      <workItem from="1716467315287" duration="3219000" />
+      <workItem from="1716573841462" duration="545000" />
+      <workItem from="1716574415211" duration="63000" />
+      <workItem from="1716574568570" duration="536000" />
+      <workItem from="1716575126976" duration="11000" />
+      <workItem from="1716575180460" duration="731000" />
+      <workItem from="1716576003790" duration="53000" />
+      <workItem from="1716639726250" duration="2493000" />
+      <workItem from="1716814815979" duration="444000" />
+      <workItem from="1716889028005" duration="4790000" />
+      <workItem from="1716894113461" duration="5022000" />
+      <workItem from="1716900277822" duration="421000" />
+      <workItem from="1716900797417" duration="75000" />
+      <workItem from="1716978367423" duration="367000" />
+      <workItem from="1716978824654" duration="337000" />
+      <workItem from="1716979203335" duration="677000" />
+      <workItem from="1716979966016" duration="18000" />
+      <workItem from="1716980018267" duration="3867000" />
+      <workItem from="1716998782983" duration="3963000" />
+      <workItem from="1717003050423" duration="2385000" />
+      <workItem from="1717357910477" duration="20000" />
+      <workItem from="1717358626489" duration="330000" />
+      <workItem from="1717359270576" duration="4248000" />
+      <workItem from="1717415940960" duration="51000" />
+      <workItem from="1717416030994" duration="424000" />
+      <workItem from="1717417506662" duration="1010000" />
+    </task>
+    <task id="LOCAL-00001" summary="Implement methods">
+      <option name="closed" value="true" />
+      <created>1716402997592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716402997592</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update Auction; implement new methods for client">
+      <option name="closed" value="true" />
+      <created>1716461657760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716461657760</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Split into Client/Server, introduce basic tests of connectivity">
+      <option name="closed" value="true" />
+      <created>1716468640376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716468640376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added tests for Client and Service, modified Interfaces">
+      <option name="closed" value="true" />
+      <created>1716575787126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716575787126</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed vanishing credits on user.makeBid()">
+      <option name="closed" value="true" />
+      <created>1716890833843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716890833843</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create GUI">
+      <option name="closed" value="true" />
+      <created>1716893678283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716893678283</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create Admin GUI, add toReadableString methods">
+      <option name="closed" value="true" />
+      <created>1716980576302</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716980576302</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Logging enhanced">
+      <option name="closed" value="true" />
+      <created>1716998545525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716998545526</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added User GUI. All 3 GUIs look fine.">
+      <option name="closed" value="true" />
+      <created>1717005253700</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717005253700</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Rename Project">
+      <option name="closed" value="true" />
+      <created>1717416212909</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717416212909</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add library locally">
+      <option name="closed" value="true" />
+      <created>1717418208298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717418208298</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement methods" />
+    <MESSAGE value="Update Auction; implement new methods for client" />
+    <MESSAGE value="Split into Client/Server, introduce basic tests of connectivity" />
+    <MESSAGE value="Added tests for Client and Service, modified Interfaces" />
+    <MESSAGE value="Fixed vanishing credits on user.makeBid()" />
+    <MESSAGE value="Create GUI" />
+    <MESSAGE value="Create Admin GUI, add toReadableString methods" />
+    <MESSAGE value="Logging enhanced" />
+    <MESSAGE value="Added User GUI. All 3 GUIs look fine." />
+    <MESSAGE value="Rename Project" />
+    <MESSAGE value="Add library locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add library locally" />
+  </component>
+</project>

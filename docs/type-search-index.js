@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.aslib","l":"Admin"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.aslib","l":"Auction"},{"p":"org.aslib","l":"AuctionStatus"},{"p":"org.aslib","l":"Item"},{"p":"org.aslib","l":"Service"},{"p":"org.aslib","l":"User"}];updateSearchResults();
