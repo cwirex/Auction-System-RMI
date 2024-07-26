@@ -1,37 +1,35 @@
-# Programowanie Współbieżna i Rozproszone (2024)
-## Program Zaliczeniowy
+# Remote Auction System based on Java RMI
 
-**Mateusz Oćwieja, 303814**
+### Online Auctions - Brief Description and Instructions 
+The online auction service is launched and made available on the network. Any client can connect to the service. A client with a special key can gain access to the Administrator account. The Administrator creates auction Items, Auctions, and Users. Clients can also in to their dedicated User accounts. After logging in, they should top up their Wallet with new funds. Then, they can browse Auctions and the Items listed on them. Users join Auctions and bid until the time runs out. The server displays auction information (on the website or in the console): item description, current price, and the list of bidders. If someone wants to bid, they submit their maximum price, and the system places them on the list of bidders. If their bid is the highest, it is recorded, and they become the leader. When the Auction closes, the item being auctioned goes to the bidder who offered the highest amount.
 
-### Aukcje Internetowe - Krótka Instrukcja i Opis
-
-Serwis rozpoczyna działanie. Użytkownik, posiadający specjalny klucz, może uzyskać dostęp do konta Administratora. Administrator tworzy przedmioty aukcyjne, aukcje i użytkowników. Użytkownicy mogą się zalogować na dedykowane konta. Po zalogowaniu, powinni doładować swój portfel nowymi środkami. Następnie, mogą przeglądać aukcje i wystawione na nich przedmioty. Użytkownicy dołączają do aukcji i licytują, aż się skończy czas. Serwer wyświetla informacje o aukcji (na stronie lub w konsoli): opis przedmiotu, aktualna cena, lista licytujących. Jeśli ktoś chce licytować to podaje swoją maksymalną cenę, a system umieszcza go na liście licytujących. Jeśli jego oferta jest najwyższa, zostaje to odnotowane i staje się liderem. Przy zamykaniu aukcji, przedmiot na niej licytowany, trafia do oferenta, który zaoferował najwyższą kwotę.
-
-### Dokumentacja:
+### Docs:
 [Docs of Auction Service Library (Service Interface)](docs)
+<ins>[Docs of Auction Service (Client)]</ins>
+<ins>[Docs of Auction Service (ServiceImpl)]</ins>
 
-### Struktura Logiczna Aplikacji
+### Logical Structure of the Application
 ![Alt Text](LogicalStructure.png)
 
-### Interfejs serwisu aukcyjnego zapewnia:
-#### Funkcje Administracyjne (Admin)
-- Tworzenie Użytkowników: Admin może tworzyć nowych użytkowników, podając ich login i hasło.
-- Tworzenie Przedmiotów: Admin może tworzyć nowe przedmioty aukcyjne, definiując ich nazwę oraz początkową wartość.
-- Tworzenie Aukcji: Admin może tworzyć aukcje dla istniejących przedmiotów, ustalając czas rozpoczęcia i zakończenia aukcji.
-- Zarządzanie Danymi: Admin ma dostęp do listy wszystkich użytkowników, przedmiotów oraz aukcji.
+### The interface of the auction service provides:
+#### Administrative Functions (Admin)
+- Creating Users: Admin can create new users with their username and password.
+- Creating Items: Admin can create new auction items, defining their name and initial value.
+- Creating Auctions: Admin can create auctions for existing items, defining the start and end time of the auction.
+- Data Management: Admin can access the list of all users, items and auctions.
 
-#### Funkcje Aukcji (Auction)
-- Licytacja: Użytkownicy mogą składać oferty na przedmioty wystawione na aukcję.
-- Powiadomienia: System może wysyłać powiadomienia do wszystkich uczestników aukcji.
-- Śledzenie Ofert: Aukcja przechowuje informacje o najwyższej ofercie oraz użytkowniku, który ją złożył.
-- Status Aukcji: Aukcja posiada różne statusy (nowa, otwarta, zamknięta), które odzwierciedlają jej bieżący stan.
+#### Auction Functions
+- Bidding: Users can place bids on items up for auction.
+- Notifications: The system can send notifications to all auction participants.
+- Bid Tracking: The auction stores information about the highest bid and the user who placed the bid.
+- Auction Status: An auction has different statuses (new, open, closed) that reflect its current status.
 
-#### Funkcje Użytkowników (User)
-- Logowanie: Użytkownicy mogą logować się do systemu, podając swój login i hasło.
-- Składanie Ofert: Użytkownicy mogą składać oferty w aukcjach, zarówno bezpośrednio, jak i poprzez podanie ID aukcji.
-- Zarządzanie Kredytami: Użytkownicy mogą doładowywać swoje konto kredytowe przy pomocy specjalnych kodów BL1K.
-- Odbiór Przedmiotów: Po zakończeniu aukcji, użytkownicy mogą odbierać wylicytowane przedmioty (są im przekazywane automatycznie).
+#### User Functions (User)
+- Logging in: Users can log in to the system with their username and password.
+- Placing Bids: Users can place bids in auctions, either directly or by providing an auction ID.
+- Managing Credits: Users can top up their credit account using special BL1K codes.
+- Receiving Items: After the auction ends, users can pick up the auctioned items (they are transferred to them automatically).
 
-#### Ogólne Funkcje Serwisu (Service)
-- Lista Aukcji: Wszyscy mogą przeglądać listę dostępnych aukcji.
-- Interfejs Logowania: Zapewnia interfejs do logowania, udostępniając konto Administratora lub Użytkownika.
+#### General Service Features (Service)
+- Auction List: Everyone can view the list of available auctions.
+- Login Interface: Provides a login interface, providing an Administrator or User account.
