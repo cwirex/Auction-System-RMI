@@ -3,11 +3,6 @@
 ### Online Auctions - Brief Description and Instructions 
 The online auction service is launched and made available on the network. Any client can connect to the service. A client with a special key can gain access to the Administrator account. The Administrator creates auction Items, Auctions, and Users. Clients can also in to their dedicated User accounts. After logging in, they should top up their Wallet with new funds. Then, they can browse Auctions and the Items listed on them. Users join Auctions and bid until the time runs out. The server displays auction information (on the website or in the console): item description, current price, and the list of bidders. If someone wants to bid, they submit their maximum price, and the system places them on the list of bidders. If their bid is the highest, it is recorded, and they become the leader. When the Auction closes, the item being auctioned goes to the bidder who offered the highest amount.
 
-### Docs:
-[Docs of Auction Service Library (Service Interface)](docs)
-<ins>[Docs of Auction Service (Client)]</ins>
-<ins>[Docs of Auction Service (ServiceImpl)]</ins>
-
 ### Logical Structure of the Application
 ![Alt Text](LogicalStructure.png)
 
